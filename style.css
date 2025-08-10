@@ -25,6 +25,7 @@ body {
     padding: 20px;
     padding-top: 100px;
     width: 100vw;
+   
 
 }
 
@@ -38,8 +39,7 @@ section {
     width: 85vw;
     border: 10px solid rgb(115, 115, 115);
     border-radius: 60px;
-    margin-left: 0;
-    margin-right: 0;
+
 
 }
 
