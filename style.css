@@ -35,8 +35,10 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     width: 85vw;
-    border: 20px solid rgb(115, 115, 115);
+    border: 10px solid rgb(115, 115, 115);
     border-radius: 60px;
+    margin-left: 0;
+    margin-right: 0;
 
 }
 
