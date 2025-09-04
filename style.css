@@ -67,6 +67,7 @@ a {
 }
 a:hover {
     color: purple;
+   
 }
 
 .container {
@@ -86,6 +87,11 @@ h1 {
     font-family: SukajanBrushDemoRegular;
     text-shadow: 15px 20px 2cm rgba(65, 13, 209, 0.622);
 }
+h1:hover {
+     transform: scale(1.20);
+     color: rgb(116, 36, 156);
+   
+}
 
 p {
     font-size: 1.5em;
@@ -99,8 +105,9 @@ img {
     height: 28vh;
     margin-right: -70px;
     margin-top: -20px;
-
-
+}
+img:hover {
+     transform: scale(1.25);
 }
 
 h2 {
@@ -110,6 +117,22 @@ h2 {
     
 }
 
+.resumo > p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    text-align: center;
+    width: 70vw;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.963);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.699);
+}
+#pri {
+    border-radius: 5px 5px 0px 0px;
+}
+#ult {
+    border-radius: 0px 0px 5px 5px;
+}
 #cenas {
 
     color: white;
@@ -118,18 +141,34 @@ h2 {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+.videos {
+    background: rgba(255, 255, 255, 0.227);
+    border: 4px solid rgba(115, 115, 115, 0.711);;
+    display: inline-block;
+    width: 70vw;
+   border-radius: 10px;
+   padding: 10px;
+   margin-left: 20px;
+}
 iframe {
     padding: 10px;
-
+    
     border-radius: 20px;
+}
+iframe:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.7);
 }
 
 footer {
     padding: 20px;
     margin-top: 20px;
-    font-size: 1em;
+    font-size: 2.5em;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 2px 2px 5px rgba(245, 241, 241, 0.256);
+}
+footer:hover {
+  
+    box-shadow: 0 6px 15px rgba(0,0,0,0.7);  
 }
