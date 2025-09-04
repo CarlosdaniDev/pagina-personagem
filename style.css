@@ -87,11 +87,7 @@ h1 {
     font-family: SukajanBrushDemoRegular;
     text-shadow: 15px 20px 2cm rgba(65, 13, 209, 0.622);
 }
-h1:hover {
-     transform: scale(1.20);
-     color: rgb(116, 36, 156);
-   
-}
+
 
 p {
     font-size: 1.5em;
@@ -124,8 +120,8 @@ h2 {
     width: 70vw;
     margin: auto;
     color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.963);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.699);
+    background-color:rgba(255, 255, 255, 0.49);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.232);
 }
 #pri {
     border-radius: 5px 5px 0px 0px;
@@ -148,7 +144,7 @@ h2 {
     width: 70vw;
    border-radius: 10px;
    padding: 10px;
-   margin-left: 20px;
+ 
 }
 iframe {
     padding: 10px;
