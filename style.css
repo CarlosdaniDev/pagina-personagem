@@ -115,7 +115,7 @@ img {
     bottom: 0;
     right: 5%;*/
     width: 300px;
-    
+    margin-top: 70px;
     margin-left: 20px;
     filter: drop-shadow(0 0 15px #b300ff) drop-shadow(0 0 40px #7a00ff);
     transition: 0.2s;
