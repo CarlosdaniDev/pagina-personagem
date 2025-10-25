@@ -46,7 +46,7 @@ html, body {
 
 
 #main {
-    grid-area: 1/1/2/3;
+    grid-area: 1/1/2/2;
 }
 
 nav {
@@ -77,7 +77,7 @@ a:hover {
 
 }
 .resumo{
-    grid-area: 3/1/4/3;
+    grid-area: 3/1/4/2;
      padding: 20px;
     text-align: center;
     width: 70vw;
@@ -149,7 +149,7 @@ h2 {
 }
 
 #cenas {
-    grid-area: 5/1/6/3;
+    grid-area: 5/1/6/2;
     color: white;
     font-size: 0.8em;
     padding: 15px;
