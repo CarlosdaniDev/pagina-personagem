@@ -168,10 +168,11 @@ h2 {
 }
 
 iframe {
-    padding: 2px;
+    padding: 10px;
     border-radius: 20px;
     display: block;
     margin: auto;
+
 }
 
 iframe:hover {
@@ -194,7 +195,7 @@ footer:hover {
 }
 @media screen and (min-width: 768px) {
 .conteiner {
-    grid-template-rows: 100px 300px 2fr 600px;
+    grid-template-rows: 100px 300px 2fr 800px;
 }
     #imagem {
     grid-area: 2/2/3/3;
